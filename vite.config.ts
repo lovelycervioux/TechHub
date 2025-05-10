@@ -5,11 +5,9 @@ export default defineConfig({
   base: '/TechHub/',  // <-- IMPORTANT
   plugins: [
     react(),
-
     {
       name: "mocha-error-reporter",
 
-      // ref: https://vite.dev/guide/api-plugin.html#transformindexhtml
       transformIndexHtml(html) {
         if (process.env.NODE_ENV !== "development" && process.env.SHOW_WATERMARK !== "false") {
           return [
