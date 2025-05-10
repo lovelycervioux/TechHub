@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   base: '/TechHub/',  // <-- IMPORTANT
-  plugins: [react()],
-})
+  plugins: [
+    react(),
 
     {
       name: "mocha-error-reporter",
