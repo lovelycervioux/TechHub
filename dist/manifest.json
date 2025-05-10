@@ -1,0 +1,20 @@
+{
+  "short_name": "TechConnect",
+  "name": "TechConnect - InfoTech Student's Club Hub",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6d4aff",
+  "background_color": "#3b2077"
+}

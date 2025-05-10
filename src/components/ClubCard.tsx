@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { Club } from '../types';
 import { useClubs } from '../context/ClubContext';
 import { useAuth } from '../context/AuthContext';
-import { User } from 'lucide-react';
 
 interface ClubCardProps {
   club: Club;
